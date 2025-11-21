@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NY Work&Travel</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="#" class="logo">NY <span>Work&Travel</span></a>
+
+        <button class="burger" onclick="document.querySelector('.nav').classList.toggle('nav-open')">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav">
+            <a href="#about">Біз туралы</a>
+            <a href="#places">Жұмыс орындары</a>
+            <a href="#gallery">Галерея</a>
+            <a href="#motivation">Мотивация</a>
+            <a href="#team">Команда</a>
+            <a href="#contact">Байланыс</a>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container hero-inner">
+        <div class="hero-text">
+            <h1>Work and Travel USA — Арманыңды іске асыр!</h1>
+            <p class="lead">Америкада жазғы маусымда жұмыс істеп, жаңа тәжірибе жина!</p>
+
+            <div class="hero-actions">
+                <a href="#contact" class="btn-primary">Өтініш қалдыру</a>
+                <a href="#about" class="btn-ghost">Толығырақ</a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <img src="assets/img/hero.jpg" alt="USA" />
+            <div class="card-badge">2025 Жазғы маусым</div>
+        </div>
+    </div>
+</section>
+
+<!-- MOTIVATION & MUSIC SECTION -->
+<section class="section" id="motivation">
+    <div class="container">
+        <h2 class="section-title">Нью-Йоркқа баруға мотивация</h2>
+        <p class="lead">Америкада жазғы жұмыс және жаңа тәжірибе — сенің арманыңды жүзеге асыру мүмкіндігі!</p>
+
+        <!-- Автоматты ойнатылатын музыка -->
+        <audio autoplay loop hidden>
+            <source src="https://prosearch.tribeofnoise.com/artists/show/24205/30793" type="audio/mpeg">
+            Сіздің браузер аудионы қолдамайды.
+        </audio>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+    <div class="container">
+        <h2 class="section-title">Біз туралы</h2>
+        <p class="lead">New York Work&Travel – студенттерге АҚШ-та заңды түрде жұмыс істеуге мүмкіндік беретін халықаралық бағдарлама.</p>
+
+        <div class="cards grid">
+            <div class="card">
+                <img src="assets/img/work1.jpg" />
+                <div class="card-body">
+                    <h3>Жұмыс орындары көп</h3>
+                    <p>Ресепшн, кафе, қонақүй, сатушы, аттракцион қызметкері.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/work2.jpg" />
+                <div class="card-body">
+                    <h3>Сапалы кеңес</h3>
+                    <p>Құжаттар, виза, жұмыс таңдауда толық қолдау көрсетеміз.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/work3.jpg" />
+                <div class="card-body">
+                    <h3>Жолдама бағасы</h3>
+                    <p>Бағасы қолжетімді және жасырын төлемдер жоқ.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PLACES -->
+<section class="section" id="places">
+    <div class="container">
+        <h2 class="section-title">Жұмыс орындары</h2>
+
+        <div class="tour-grid">
+            <div class="tour">
+                <h3>Fast Food Worker</h3>
+                <p>McDonald’s, Burger King, KFC</p>
+                <div class="price">$12–$16 / сағ</div>
+            </div>
+            <div class="tour">
+                <h3>Hotel Staff</h3>
+                <p>Reception, Housekeeping</p>
+                <div class="price">$13–$18 / сағ</div>
+            </div>
+            <div class="tour">
+                <h3>Attractions</h3>
+                <p>Disneyland, Waterpark</p>
+                <div class="price">$14–$19 / сағ</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+    <div class="container">
+        <h2 class="section-title">Галерея</h2>
+
+        <div class="gallery-grid">
+            <img src="assets/img/g1.jpg">
+            <img src="assets/img/g2.jpg">
+            <img src="assets/img/g3.jpg">
+            <img src="assets/img/g4.jpg">
+            <img src="assets/img/g5.jpg">
+            <img src="assets/img/g6.jpg">
+            <img src="assets/img/g7.jpg">
+            <img src="assets/img/g8.jpg">
+        </div>
+    </div>
+</section>
+
+<!-- TEAM -->
+<section class="section" id="team">
+    <div class="container">
+        <h2 class="section-title">Біздің команда</h2>
+        <p class="lead">Бұл сайтты жасаған команда:</p>
+
+        <div class="team-grid">
+
+            <div class="team-card">
+                <img src="assets/img/aiken.jpg" alt="Айкен" />
+                <h3>Айкен</h3>
+                <p>Frontend & дизайн</p>
+            </div>
+
+            <div class="team-card">
+                <img src="assets/img/aruzhan.jpg" alt="Аружан" />
+                <h3>Аружан</h3>
+                <p>Контент & медиа</p>
+            </div>
+
+            <div class="team-card">
+                <img src="assets/img/mukhammedzhan.jpg" alt="Мухаммеджан" />
+                <h3>Мұхаммеджан</h3>
+                <p>Backend & логика</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+    <div class="container contact-inner">
+        <div>
+            <h2 class="section-title">Байланыс</h2>
+            <ul class="contact-list">
+                <li>Тел: <strong>+7 707 000 0000</strong></li>
+                <li>Email: <strong>nyworktravel@gmail.com</strong></li>
+                <li>Instagram: <a href="#">@ny_worktravel</a></li>
+            </ul>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Аты-жөніңіз" required>
+            <input type="email" placeholder="Email" required>
+            <textarea rows="4" placeholder="Хабарлама"></textarea>
+            <button class="btn-primary">Жіберу</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div>© 2025 NY Work&Travel — Барлық құқықтар қорғалған.</div>
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Gmail</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
